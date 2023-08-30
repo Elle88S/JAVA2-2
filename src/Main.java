@@ -5,14 +5,13 @@ public class Main {
         int payment = 1100;
 
 
-
-int bonuscount;
+        int bonuscount;
         boolean bonus;
         if (payment > 1000) {
-           bonuscount = payment / 100 + payment;}
-        else {
+            bonuscount = payment / 100 + payment;
+        } else {
             bonuscount = payment;
         }
-        System.out.println (clientstatus + bonuscount);
+        System.out.println(clientstatus + bonuscount);
     }
 }
